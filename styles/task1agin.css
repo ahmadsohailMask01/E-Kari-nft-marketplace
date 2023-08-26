@@ -1,0 +1,874 @@
+.container{
+    width: 1330px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.backgroundblack{
+    background: black;
+}
+#logoo{
+    height: 40px;
+    width: 56px;
+    margin-top: 5px;
+    margin-left: -16px;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    padding: 2px 0px 0px 0px;
+    background: black;
+    height: 57px;
+}
+#nft{
+    color: white;
+    font-size: 18px;
+    padding-top: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+.navbar input{
+    width: 600px;
+    height: 33px;
+    border-radius: 7px;
+    margin-left: 20px;
+    margin-top: 6px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: white;
+}
+.navbar input:hover{  
+  -webkit-transition: 0.9s ease;
+  transition: 0.9s ease;
+    background-color: rgb(166, 166, 202); 
+}
+#button{
+border-radius: 8px;
+font-size: 14px;
+height: 40px;
+color: black;
+background-color: white;
+text-transform: uppercase;
+padding-inline: 4px;
+width: 120px;
+margin-left: 30px;
+margin-top: 6px;
+}
+#button:hover{
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-color: rgb(166, 166, 202);
+    box-shadow: 0 4px 15px 0 rgba(164, 164, 184, 0.75);
+}
+#button:focus{
+    outline: none;
+}
+.navbar img{
+   border-radius: 55%;
+   height: 35px;
+   width: 35px;
+   margin-top: 6px;
+   padding-inline: 10px;
+}
+.navbar #navimg1{
+margin-left: auto;
+}
+.backimg{
+    position: relative;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.backimg::before{
+    content: "";
+    background-image: url("forground.jpg");
+    position: absolute;
+    border-radius: 15px;
+    margin: 5px 5px 0px 5px;
+    display: flex;
+    max-width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    opacity: .5;      
+}
+.mySlides {
+    display: none;
+  }
+  .slideimg {
+    width: 300px;
+    height: 370px;
+    margin-left: 30px;
+    border-radius: 50px;  
+  }
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  .text {
+    color: #ffffff;
+    font-size: 18px;
+    padding: 20px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  .dot {
+    cursor: pointer;
+    height: 0px;
+    width: 100px;
+    margin: 0 2px;
+    background-color: #999999;
+    border-radius: 6%;
+   padding-inline: 30px;
+    transition: background-color 0.6s ease;
+  }
+  .linebottom{
+float: center;
+  }
+  .active,
+  .dot:hover {
+    background-color: #111111;
+  }
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2.1s;
+    animation-name: fade;
+    animation-duration: 2.1s;
+  }
+  @-webkit-keyframes fade {
+    from {
+      opacity: .4
+    }
+    to {
+      opacity: 1
+    }
+  }
+  @keyframes fade {
+    from {
+      opacity: .4
+    }
+    to {
+      opacity: 1
+    }
+  }
+#mainlogo{
+    height: 280px; 
+    width: 390px;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.content h3{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 100px;
+}
+#name{
+    margin-left: 120px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+#heading{
+    font-size: 18px;
+    margin-left: 220px;
+    margin-top: 4px;
+}
+#explorebtn{
+    font-size: 18px;
+    padding-inline: 6px;
+    margin-left: 230px;
+    border-radius: 14px;
+    height: 45px;
+    background-color: white;
+    text-transform: uppercase;
+    padding-inline: 4px;
+    width: 130px;
+    margin-top: 25px;
+}
+#explorebtn:hover{
+    cursor: pointer;
+    box-shadow: #fa7199;
+    background-color: rgb(166, 166, 202);
+}
+#popupimg{
+    display: flex;
+    flex-direction: row;
+}
+#topcollection{
+    color: white;
+    margin-left: 4px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+#topcollection:hover{
+    color: rgb(168, 168, 221);
+}
+.collection{
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    padding-inline: 5px;
+}
+.top1{
+    position: relative;
+}
+.top1 #top{
+    height: 230px;
+    padding-inline: 10px;
+    width: 420px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.smallimg{
+    display: flex;
+}
+.smallimg #small1{
+    height: 48px;
+    width: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 210px;
+    left: 30px;
+}
+.smallimg #smallheading{
+    padding-top: 5px;
+    margin-left: 75px;
+    color: white;
+}
+.top1:hover{
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    border-radius: 15px;
+}
+#trending{
+    margin-top: 18px;
+    margin-left: 4px;
+    color: white;
+    cursor: pointer;
+}
+#trending:hover{
+    color: rgb(138, 138, 199);
+}
+.scrol{
+    display: block;
+    max-height: 680px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card1{
+    box-shadow: 0 0 2px rgba(0, 0, 0, 2);
+    flex: 0 1 19.2rem;  
+    margin: 10px;
+    background-color:white;  
+    border-radius: 20px;
+}
+.card1 h5{
+    margin-top: 5px;
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 7px;
+}
+.card1 h6{
+    margin-left: 7px;
+}
+.card1 p{
+    padding-top: 3px;
+    font-size: 12px;
+    margin-left: 8px;
+    padding-bottom: 7px;
+}
+.card .card1 #cardimg{
+    width: 180px ;
+    height: 180px;
+    margin-top: 40px;
+    margin-bottom: 26px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cardheading{
+    background-color:rgb(230, 222, 222);
+    border-radius: 20px;
+}
+.card1:hover{
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    border-radius: 15px;
+    border: 2px solid blueviolet;
+    }
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cards1{
+    box-shadow: 0 0 2px rgba(0, 0, 0, 2);
+    border-radius: 20px;
+    flex: 0 1 12rem;  
+    margin: 10px;
+    background-color:rgb(226, 213, 213)
+}
+.cards1 h5{
+    margin-top: 5px;
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 7px;
+}
+.cards1 .cardsheading h6{
+    padding-top: 3px;
+    font-size: 12px;
+    margin-left: 7px;  
+}
+.cards1 .cardsheading p{
+    padding-top: 3px;
+    font-size: 12px;
+    margin-left: 8px;
+    padding-bottom: 7px;
+}
+.cards .cards1 #cardsimg{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 308px ;
+}
+.cards1:hover{
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    border-radius: 15px;
+    }
+.cardsheading{
+    background-color:rgb(230, 222, 222);
+    border-radius: 20px;
+}
+hr{
+    width: 700px;
+    border: 1px solid white;
+    margin-left: 315px;
+    margin-top: 10px;
+    color: white;
+}
+.footer{
+    display: flex;
+    background-color: black;
+    padding-top: 10px;
+    flex-wrap: wrap;
+}
+.logoname{
+    display: flex;
+}
+#nftfooter{
+    padding-top: 5px;
+    color: white;
+    margin-left: 5px;
+    margin-top: 8px;
+}
+#footerlogo{
+    height: 40px;
+    width: 50px;
+    border-radius: 50%;
+}
+.footerdetail{
+    margin-left: 200px;
+    color: white;
+    font-size: 16px;
+    line-height: 19px;
+    padding-top: 8px;
+}
+.company{
+    margin-left: 260px;
+    color: white;
+    padding-top: 8px;
+    display: flex;
+    flex-direction: column;  
+}
+.company #compny{
+    height: auto;
+    font-size: 14px;
+}
+.company #about{
+    height: auto;
+    font-size: 14px;
+    margin-top: 5px;
+}
+#compny:hover{
+   color: rgb(122, 122, 148);
+   cursor: pointer;
+}
+#about:hover{
+    color: rgb(122, 122, 148);
+    cursor: pointer;
+}
+.privacy{
+    color: white;
+    position: absolute;
+    right: 0%;
+    padding-right: 15px;
+   font-size: smaller;
+   margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+/* MediaQuery for responsiveness */
+
+  @media screen and (max-width: 1000px) {
+    #nft{
+        
+        font-size: 16px;
+        padding-top: 15px;
+        justify-content: left;}
+    #search{
+        padding: 0%;
+       
+        width: 370px;
+        margin-left: 20px; }
+    #button{
+        margin-left: 18px; }
+    .navbar img{
+
+        padding-inline: 8px;
+       border-radius: 55%;
+       height: 35px;
+       margin-left: 23px;}
+    #mainlogo{
+        margin-left: 120px;
+        height: 100px;
+        width: 100px; }
+    #name{
+        font-size: 15px;
+        margin-left:20px;
+        font-weight: 700; }
+    #heading{
+        font-size: 15px;
+     margin-left: 100px;
+        font-weight: 700; }
+      
+    #explorebtn{
+        margin-left: 100px;
+    }
+    .backimg{
+        height: 350px;
+    }
+    .slideimg {
+        width: 200px;
+        height: 290px;
+        margin-left: 30px;
+        border-radius: 50px;  
+      }
+      .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+      }
+
+
+    .collection .top1 #top{
+        width: 300px;
+        height: 190px;
+        }
+        .smallimg #small1{
+            width: 30px;
+            height: 40px;
+            margin-left: 0px;
+            margin-top: -30px;
+        }
+        .smallimg #smallheading{
+        font-size: 12px;
+        margin-left: 70px;
+        }
+        .card1{
+            flex: 1 1 11rem;  
+        }
+        .card .card1 #cardimg{
+            width: 135px;
+            height: 130px;
+    
+        }
+        .card1 h5{
+            font-size: 12px;
+        }
+        .cards1{
+            flex: 0 0 7rem; 
+        }
+        .cards .cards1 #cardsimg{
+            width: 230px;
+            height: 150px;
+        }
+        .cards1 h5{
+            font-size: 12px;
+        }
+        hr{
+            margin-left: 250px;
+            width: 370px;
+        }
+        .logoname #footerlogo{
+            height: 40px;
+            width: 40px;
+        }
+        .logoname #nftfooter{
+            font-size: 16px;
+            padding-top: 9px;
+        }
+        .footerdetail{
+            margin-left: 80px;
+            font-size: 15px;
+        }
+        .company{
+          margin-left:60px;
+          font-size: 15px;
+        }
+        .privacy{
+           margin-top: 30px;
+           font-size: 10px;
+           margin-left: 370px;
+        }
+  } 
+@media screen and (min-width: 905px) and (max-width:930px) {
+    #nft{
+        margin: 0%;
+        font-size: 10px;
+        padding-top: 10px;
+    }
+    .showSlider img {
+        width: 550px;
+        height:280px;
+        margin-left: 2px;
+        border-radius: 30px;
+        }
+        .left{ 
+            margin-left: 120px;
+            margin-top: -15px;
+            }
+            .right {
+            margin-right: 135px;
+            margin-top: -15px;
+            }
+            .collection .top1 #top{
+                width: 270px;
+                height: 190px;
+                }
+                .cards1{
+                    flex: 0 0 3rem; 
+                }
+                .cards .cards1 #cardsimg{
+                    width: 200px;
+                    height: 110px;
+                }
+                .privacy{
+                    margin-top: 30px;
+                    font-size: 10px;
+                    margin-left: 290px; }
+}
+  @media screen and (max-width: 810px) {
+    #mainlogo{
+        height: 170px;
+        width: 190px;
+        margin-left: 70px;
+    }
+    #nft{
+        margin: 0%;
+        font-size: 10px;
+        padding-top: 15px;
+    }
+    #search{
+        padding: 0%;
+        margin: 0%;
+        margin-top: 8px;
+        width: 280px;
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    #name{
+        font-size: 13px;
+        margin-left:60px;
+        font-weight: 700;
+    }
+    #heading{
+        font-size: 14px;
+     margin-left: 100px;
+        font-weight: 700;
+    }
+    .slideimg {
+        width: 230px;
+        height: 220px;
+        margin-left: 20px;
+        border-radius: 50px;  
+      }
+   .collection .top1 #top{
+    width: 240px;
+    height: 190px;
+    }
+    .smallimg #small1{
+        width: 30px;
+        height: 40px;
+        margin-left: 0px;
+        margin-top: -30px;
+    }
+    .smallimg #smallheading{
+    font-size: 12px;
+    margin-left: 70px;
+    }
+    .card1{
+        box-shadow: 0 0 2px rgba(0, 0, 0, 2);
+       border-radius: 20px;
+        flex: 0 1 11.3rem;  
+        margin: 10px;
+        background-color:white;
+        width: auto;
+    }
+    .card1 h5{
+        margin-top: 5px;
+        font-weight: 700;
+        font-size: 15px;
+        margin-left: 7px;
+    }
+    .card1 h6{
+        margin-left: 7px;
+    }
+    .card1 p{
+        padding-top: 3px;
+        font-size: 12px;
+        margin-left: 8px;
+        padding-bottom: 7px;
+    }
+    .card .card1 #cardimg{
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        width: 90px ;
+        height: 90px;
+        margin-bottom: 40px;
+    }
+.card1:hover{
+    -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  border-radius: 15px;
+}
+.cards1{
+    flex: 0 0 4rem; 
+    width: 180px;
+    height: 230px;
+}
+.cards .cards1 #cardsimg{
+    width: 180px;
+    height: 160px;
+}
+.cards1 h5{
+    font-size: 12px;
+}
+    hr{
+        margin-left: 200px;
+        width: 350px;
+    }
+    .logoname #footerlogo{
+        height: 35px;
+        width: 35px;
+    }
+    .logoname #nftfooter{
+        font-size: 14px;
+        padding-top: 9px;
+    }
+    .footerdetail{
+        margin-left: 80px;
+        font-size: 15px;
+    }
+    .company{
+      margin-left:60px;
+      font-size: 15px;
+    }
+    .privacy{
+       margin-top: 30px;
+       font-size: 10px;
+       margin-left: 180px;}
+  } 
+  @media screen and (min-width: 412px) and (max-width: 440px) {
+
+    #nft{
+        margin: 0%;
+        font-size: 10px;
+        margin-top: 3px;
+    }
+    #search{
+        padding: 0%;
+        margin: 0%;
+        width: 70px;
+        margin-top: 8px;
+        margin-left: auto;
+        font-size: 10px;
+        height: 26px;
+    }
+    #button{
+        margin-left: auto;
+        width: 60px;
+        font-size: 5px;
+        margin-top: 8px;
+        height: 32px;
+    }
+
+    .navbar img{
+        border-radius: 55%;
+        height: 25px;
+        width: 25px;
+        margin-top: 12px;
+        padding-inline: 2px;
+     }
+     .navbar #navimg1{
+     margin-left: auto;
+     }
+    #mainlogo{
+        margin-left: 50px;
+        height: 70px;
+        width: 70px;
+    }
+    #name{
+        margin-top: -10px;
+        font-size: 10px;
+        margin-left:0px;
+        font-weight: 700;
+    }
+    #heading{
+        font-size: 12px;
+     margin-left: 40px;
+        font-weight: 700;
+    }
+            .slideimg {
+                width: 60px;
+                height: 100px;
+                border-radius: 20px;  
+              }
+              .text {
+                color: #ffffff;
+                font-size: 12px;
+                padding: 15px 12px;
+                position: absolute;
+                bottom: 8px;
+                text-align: center;
+              }
+              .dot {
+                cursor: pointer;
+                height: 0px;
+                width: 100px;
+                margin: 0 2px;
+                background-color: #999999;
+                border-radius: 6%;
+               padding-inline: 20px;
+                transition: background-color 0.6s ease;
+              }
+    #explorebtn{
+        margin-left: 35px;
+        height: 30px;
+        width: 100px;
+        margin-top: 6px;
+    }
+    .backimg{
+        height: 200px;
+    }
+
+   .collection .top1 #top{
+    width: 112px;
+    height: 130px;
+    }
+    .smallimg #small1{
+        width: 30px;
+        height: 40px;
+        margin-left: 0px;
+        margin-top: -90px;
+    }
+    .smallimg #smallheading{
+    font-size: 8px;
+    margin-left: 70px;
+    }
+.card1{
+    box-shadow: 0 0 2px rgba(0, 0, 0, 2);
+   border-radius: 20px;
+    flex: 0 1 9.5rem;  
+    margin: 10px;
+    background-color:white;
+    width: auto;
+}
+.card1 h5{
+    margin-top: 5px;
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 7px;
+}
+.card1 h6{
+    margin-left: 7px;
+}
+.card1 p{
+    padding-top: 3px;
+    font-size: 12px;
+    margin-left: 8px;
+    padding-bottom: 7px;
+}
+.card .card1 #cardimg{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 80px ;
+    height: 70px;  
+}
+.cards1{
+    flex: 1 1 8rem;  
+}
+.cards .cards1 img{
+    width: 140px;
+    height: 100px;
+}
+.cards1 h5{
+    font-size: 12px;
+}
+
+    hr{
+        margin-left: 100px;
+        width: 200px;
+    }
+    .logoname #footerlogo{
+        height: 25px;
+        width: 25px;
+    }
+    .logoname #nftfooter{
+        font-size: 12px;
+    }
+    .footerdetail{
+        margin-left: 18px;
+        font-size: 12px;
+    }
+    .company{
+      margin-left:16px;
+      font-size: 12px;
+    }
+    .privacy{
+       margin-top: 10px;
+       font-size: 10px;
+      margin-left:330px;
+    }
+
+  } 

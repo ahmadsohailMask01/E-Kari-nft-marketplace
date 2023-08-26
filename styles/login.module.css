@@ -1,0 +1,50 @@
+.sec {
+    background-color: white;
+    padding: 0%;
+}
+.image {
+    border-radius: 50px;
+    background-color: #01011f;
+    margin-top: -2%;
+}
+.btn {
+    background-image: linear-gradient(to right, #01011f, #20203b, #2b2b42);
+    color: white;
+    width: 100%;
+    padding: 2%;
+    border-radius: 20px;
+    transition: all 0.5s linear;
+}
+.btn:hover {
+    background-image: linear-gradient(to right top, #679fa5, #cfeeda, #679fa5);
+    color: black;
+}
+.btn1 {
+    border-color: #01011f;
+    color: aliceblue;
+}
+.sectiona {
+    padding: 0%;
+    margin-top: 10%;
+}
+.slide {
+    margin: -2%;
+}
+.forms {
+    margin: -5%;
+}
+.move {
+    display: flex;
+    margin: -4%;
+    justify-content: center;
+}
+.low {
+    margin: -5%;
+}
+.signup_image {
+    margin: 4%;
+    margin-bottom: 0%;
+}
+.sign_img {
+    border-radius: 20px;
+}
